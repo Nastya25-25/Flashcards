@@ -1,0 +1,104 @@
+.flex_items {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: bisque;
+    color: coral;
+    text-align: center;
+    border-radius: 30px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.title {
+    font-family: 'Lobster';
+    font-size: 40px;
+    text-align: center;
+}
+.flex_container{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.quiz_area{
+    background-image: url("https://stepik.org/media/attachments/lesson/374893/world.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-size: 90%;}
+
+.card,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8,
+.card9 {
+    position: relative;
+    height: 140px;
+    width: 140px;
+    transition: all 1s linear;
+    transform-style: preserve-3d;
+}
+
+#front{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    backface-visibility: hidden;
+
+}
+#back{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+#back{
+    background-color: orange;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.card2:hover {
+    transform: rotateY(180deg);
+}
+.card3:hover {
+    transform: rotateY(180deg);
+}
+.card4:hover {
+    transform: rotateY(180deg);
+}
+.card5:hover {
+    transform: rotateY(180deg);
+}
+.card6:hover {
+    transform: rotateY(180deg);
+}
+.card7:hover {
+    transform: rotateY(180deg);
+}
+.card8:hover {
+    transform: rotateY(180deg);
+}
+.card9:hover {
+    transform: rotateY(180deg);
+}
+
+
+
+
