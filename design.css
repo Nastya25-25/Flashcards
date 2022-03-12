@@ -34,15 +34,7 @@
     background-position: center;
     background-size: 90%;}
 
-.card,
-.card2,
-.card3,
-.card4,
-.card5,
-.card6,
-.card7,
-.card8,
-.card9 {
+.card {
     position: relative;
     height: 140px;
     width: 140px;
@@ -73,32 +65,3 @@
 .card:hover {
     transform: rotateY(180deg);
 }
-
-.card2:hover {
-    transform: rotateY(180deg);
-}
-.card3:hover {
-    transform: rotateY(180deg);
-}
-.card4:hover {
-    transform: rotateY(180deg);
-}
-.card5:hover {
-    transform: rotateY(180deg);
-}
-.card6:hover {
-    transform: rotateY(180deg);
-}
-.card7:hover {
-    transform: rotateY(180deg);
-}
-.card8:hover {
-    transform: rotateY(180deg);
-}
-.card9:hover {
-    transform: rotateY(180deg);
-}
-
-
-
-
