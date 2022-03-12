@@ -3,12 +3,16 @@
     font-size: 20px;
     background-color: bisque;
     color: coral;
+    height: 100%;
+    width: 100%;
+    position: absolute;
     text-align: center;
     border-radius: 30px;
     margin: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+    backface-visibility: hidden;
 }
 
 .title {
@@ -46,21 +50,6 @@
 
 .card:hover {
     transform: rotateY(180deg);
-}
-
-#front{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    z-index: 2;
-    backface-visibility: hidden;
-}
-
-#back{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    z-index: 1;
 }
 
 #back{
