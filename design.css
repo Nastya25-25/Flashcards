@@ -5,14 +5,13 @@
     color: coral;
     height: 100%;
     width: 100%;
-    position: absolute;
+    position: absolute; /*занимают 100% родительского -card- пространства*/
     text-align: center;
     border-radius: 30px;
     margin: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    backface-visibility: hidden;
 }
 
 .title {
@@ -52,8 +51,14 @@
     transform: rotateY(180deg);
 }
 
+#front{
+    z-index: 2;
+    backface-visibility: hidden;/*не работает без preserve 3D в родительском диве*/
+}
+
 #back{
     background-color: orange;
     color: white;
+    z-index: 1;
     transform: rotateY(180deg);
 }
